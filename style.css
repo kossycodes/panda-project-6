@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Space+Grotesk:wght@300;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+  
+  body {
+  /*font-family: cursive;*/
+  background-color: #FEFAEF;
+  color: #2c2b2b;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  }
+  
+  a {
+  
+  text-decoration: none;
+  
+  }
+
+  a { 
+    color: inherit; 
+  } 
+  
+  li {
+  
+  list-style: none;
+  
+  }
+
+  button, input[type="submit"], input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
+  }
+
+  
+
+  .btn {
+    font-family: 'Space Grotesk', sans-serif;
+    background: #7575FF; 
+    color: #FFFFFF; 
+    font-size: 1em; 
+    padding: 0.7em 1.4em; 
+    text-shadow: 0em 0em 0px #000000; 
+    box-shadow: 0em 0em 0px #000000; 
+    border-radius: 1.3em; 
+    border: solid 0em #000000; 
+    font-weight: 700; 
+    font-style: normal;
+  }
+
+    .top-center {
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 7em;
+      gap: 0.8em;
+    }
+
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2em;
+    }
+    .h1-sub {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 400;
+      color: #616161;
+      text-align: center;
+      width: 25em;
+      height: auto;
+    }
+
+    .all-card {
+      margin-top: 4em;
+      width: 30em;
+      height: auto;
+      margin-bottom: 4em;
+      background: #FFFFFF;
+      /* Dropshadow */
+
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+      border-radius: 40px;
+    }
+    .all-cardsub {
+      position: relative;
+      margin-left: 1.9em;
+      margin-right: 2em;
+    }
+
+    .rate {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 2em;
+      margin-bottom: 3em;
+      
+    }
+
+
+
+
+    .rate-btn {
+      background: #FFEACC; 
+      color: #FF9800; 
+      font-size: 1em; 
+      padding: 0.6em 1.1em; 
+      text-shadow: 0em 0em 0px #000000; 
+      box-shadow: 0em 0em 0px #000000; 
+      border-radius: 10em; 
+      border: solid 0em #000000; 
+      font-style: normal;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+    }
+
+    
+
+      
+
+      .send-id {
+        display: flex;
+        gap: 0.5em;
+        flex-direction: column;
+        width: 100%;
+      }
+      .send-tx {
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+      }
+      .send-num {
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        color: #000000;
+      }
+
+      
+      
+      .send-cash {
+        background: #7575FF; 
+        color: #ffffff; 
+        font-size: 1.2em; 
+        padding: 0.8em 1.9em; 
+        text-shadow: 0em 0em 0px #000000; 
+        box-shadow: 0em 0em 0px #000000; 
+        border-radius: 1.5em; 
+        border: solid 0em #000000; 
+        font-weight: 600; 
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        width: 100%;
+      }
+
+      .transact-btn {
+        margin-top: 3em;
+        margin-bottom: 2em;
+        display: flex;
+        justify-content: center;
+      }
+
+      
+
+      @media (max-width: 1024px) {
+        .all-card {
+          width: 30em;
+          
+        }
+
+        header {
+          
+          padding-top: 2em;
+          padding-left: 1em;
+          padding-right: 1em;
+        }
+
+        
+      }
+
+
+      @media (max-width: 768px) {
+        .all-card {
+          width: 25em;
+        }
+
+        .btn {
+          font-size: 0.9em;
+        }
+
+        .send-cash {
+          font-size: 1em;
+        }
+
+        h1 {
+          font-size: 1.6em;
+        }
+      }
+      
+      
+      
+      
+      
+
+
+  
